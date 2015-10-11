@@ -41,7 +41,7 @@ var loadContent = function(url){
 /**
  * Open overlay.
  */
-$("a[data-overlay").click(function(){
+$("a[data-overlay]").click(function(){
 	//Prevent handling normal anchor click
 	event.preventDefault()
 	//Get url and open ion overlay.
